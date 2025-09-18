@@ -1,0 +1,40 @@
+name: promesa_app
+description: "Una aplicación para ayudarte a cumplir tus metas a través de promesas."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  flutter_localizations:
+    sdk: flutter
+
+  # Para guardar pequeñas preferencias, como si el usuario ya vio el onboarding
+  shared_preferences: ^2.2.3
+
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  fl_chart: ^0.68.0
+  share_plus: ^9.0.0
+  provider: ^6.1.2
+  intl: ^0.20.0
+  
+  cupertino_icons: ^1.0.8
+
+  # DEPENDENCIAS DE NOTIFICACIONES (AHORA EN EL LUGAR CORRECTO)
+  flutter_local_notifications: ^17.1.2
+  timezone: ^0.9.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
